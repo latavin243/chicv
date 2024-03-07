@@ -1,3 +1,5 @@
+#import "@preview/fontawesome:0.1.0": *
+
 #show heading: set text(font: "Linux Biolinum")
 
 #show link: underline
@@ -21,8 +23,9 @@
 
 = Alex Chi
 
-skyzh\@cmu.edu |
-#link("https://github.com/skyzh")[github.com/skyzh] | #link("https://skyzh.dev")[skyzh.dev]
+#fa-envelope() skyzh\@cmu.edu |
+#fa-github() #link("https://github.com/skyzh")[github.com/skyzh] |
+#fa-link() #link("https://skyzh.dev")[skyzh.dev]
 
 == Education
 #chiline()
